@@ -3,7 +3,7 @@ import main_function
 
 lst = main_function.get_todos()
 
-0
+
 def add_todo():
     new_todo = st.session_state["new_todo"] + "\n"
     lst.append(new_todo)
